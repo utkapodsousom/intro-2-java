@@ -7,6 +7,12 @@ package com.mycompany.chapter1;
 public class Ex_13 {
 
 	public static void main(String[] args) {
+		// solve 2 x 2 linear equations
+		// ax + by = e
+		// cx + dy = f
+ 		// x = (ed - bf) / (ad - bc)
+		// y = (af - ec) / (ad - bc)  
+
 		// a = 3.4, b = 50.2, e = 44.5
 		// c = 2.1, d = .55, f = 5.9
 		System.out.println(
